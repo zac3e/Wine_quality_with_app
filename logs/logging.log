@@ -1,1 +1,58 @@
-[2025-07-05 15:29:34,645: INFO: main: Welcome to our custom loggin in data science: ]
+[2025-07-27 14:18:49,954: INFO: main: Welcome to my ml pipeline projetc: ]
+[2025-07-27 14:18:49,955: INFO: main: >>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<: ]
+[2025-07-27 14:18:49,956: INFO: common: yaml file: config/config.yaml loaded successfully: ]
+[2025-07-27 14:18:49,956: INFO: common: yaml file: params.yaml loaded successfully: ]
+[2025-07-27 14:18:49,957: INFO: common: yaml file: schema.yaml loaded successfully: ]
+[2025-07-27 14:18:49,958: INFO: common: Created directory at_artifacts: ]
+[2025-07-27 14:18:49,958: INFO: common: Created directory at_artifacts/data_ingestion: ]
+[2025-07-27 14:18:50,719: INFO: data_ingestion: artifacts/data_ingestion/data.zip dowload with following info ! Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6DF4:1F80DE:14F3F3:17DB43:688675E6
+Accept-Ranges: bytes
+Date: Sun, 27 Jul 2025 20:18:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dfw-ktki8620080-DFW
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1753647531.551750,VS0,VE118
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1c765eecdf76623c30b03e0a337c92426d8b0449
+Expires: Sun, 27 Jul 2025 20:23:50 GMT
+Source-Age: 0
+
+: ]
+[2025-07-27 14:18:50,721: INFO: main: >>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<: ]
+[2025-07-27 14:18:50,721: INFO: main: >>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<: ]
+[2025-07-27 14:18:50,722: INFO: common: yaml file: config/config.yaml loaded successfully: ]
+[2025-07-27 14:18:50,723: INFO: common: yaml file: params.yaml loaded successfully: ]
+[2025-07-27 14:18:50,723: INFO: common: yaml file: schema.yaml loaded successfully: ]
+[2025-07-27 14:18:50,724: INFO: common: Created directory at_artifacts: ]
+[2025-07-27 14:18:50,724: INFO: common: Created directory at_artifacts/data_validation: ]
+[2025-07-27 14:18:50,735: INFO: main: >>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<: ]
+[2025-07-27 14:18:50,735: INFO: main: >>>>>>>>>>> stage Data Trasformation Stage started <<<<<<<<<<<<<<<: ]
+[2025-07-27 14:18:50,737: INFO: common: yaml file: config/config.yaml loaded successfully: ]
+[2025-07-27 14:18:50,738: INFO: common: yaml file: params.yaml loaded successfully: ]
+[2025-07-27 14:18:50,739: INFO: common: yaml file: schema.yaml loaded successfully: ]
+[2025-07-27 14:18:50,739: INFO: common: Created directory at_artifacts: ]
+[2025-07-27 14:18:50,739: INFO: common: Created directory at_artifacts/data_transformation: ]
+[2025-07-27 14:18:50,753: INFO: data_transformation: Splited data into training and test sets: ]
+[2025-07-27 14:18:50,753: INFO: data_transformation: (1199, 12): ]
+[2025-07-27 14:18:50,753: INFO: data_transformation: (400, 12): ]
+[2025-07-27 14:18:50,753: INFO: main: >>>>>>>>>>> stage Data Trasformation Stage completed <<<<<<<<<<<<<<<: ]
+[2025-07-27 14:18:50,753: INFO: main: >>>>>>>>>>> stage Data Model Trainer Stage started <<<<<<<<<<<<<<<: ]
+[2025-07-27 14:18:50,755: INFO: common: yaml file: config/config.yaml loaded successfully: ]
+[2025-07-27 14:18:50,755: INFO: common: yaml file: params.yaml loaded successfully: ]
+[2025-07-27 14:18:50,756: INFO: common: yaml file: schema.yaml loaded successfully: ]
+[2025-07-27 14:18:50,756: INFO: common: Created directory at_artifacts: ]
+[2025-07-27 14:18:50,756: INFO: common: Created directory at_artifacts/model_trainer: ]
+[2025-07-27 14:18:50,764: INFO: main: >>>>>>>>>>> stage Data Model Trainer Stage completed <<<<<<<<<<<<<<<: ]
