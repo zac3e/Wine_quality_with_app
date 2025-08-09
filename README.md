@@ -1,6 +1,6 @@
 # End-to-End Machine Learning Project on Wine Quality
 
-We developed a complete ML project covering all key stages: data ingestion, validation, transformation, training, and evaluation. Additionally, we built a simple Flask application to predict new samples.
+We developed a complete ML project Using Elasticnet covering all key stages: data ingestion, validation, transformation, training, and evaluation. Additionally, we built a simple Flask application to predict new samples.
 
 ---
 
