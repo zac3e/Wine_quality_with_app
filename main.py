@@ -3,6 +3,7 @@ from src.DataScience_1.pipeline.data_ingestio_pipeline import DataIngestionTrain
 from src.DataScience_1.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
 from src.DataScience_1.pipeline.data_transformation_pipeline import DataTrasformationTrainingPipeline
 from src.DataScience_1.pipeline.data_model_trainer_pipeline import DataModelTrainerTrainingPipeline
+from src.DataScience_1.pipeline.data_model_evaluation_pipeline import DataModelEvaliationTrainingPipeline
 logger.info('Welcome to my ml pipeline projetc')
 
 
@@ -44,6 +45,16 @@ try:
     logger.info(f'>>>>>>>>>>> stage {STAGE_NAME} started <<<<<<<<<<<<<<<')
     obj=DataModelTrainerTrainingPipeline()
     obj.initiate_data_Model_trainer()
+    logger.info(f'>>>>>>>>>>> stage {STAGE_NAME} completed <<<<<<<<<<<<<<<')
+except Exception as e:
+    logger.exception(e) 
+    raise e 
+
+STAGE_NAME="Data Model Evaluation Stage"
+try:
+    logger.info(f'>>>>>>>>>>> stage {STAGE_NAME} started <<<<<<<<<<<<<<<')
+    obj=DataModelEvaliationTrainingPipeline()
+    obj.initiate_data_Model_Evaliation()
     logger.info(f'>>>>>>>>>>> stage {STAGE_NAME} completed <<<<<<<<<<<<<<<')
 except Exception as e:
     logger.exception(e) 
